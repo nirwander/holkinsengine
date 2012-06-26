@@ -1,0 +1,1 @@
+<p><input type="radio" name="drink" value="%n%" %checked%/>%name%<span>%rate%</span></p>

@@ -1,0 +1,100 @@
+body{
+	background-color: #dfceba;
+	overflow-y: scroll;
+}
+.pt-18{	font-size: 18px;}
+.pink{ color: #fd0ec1; }
+.green{ color: #31a902; }
+.clear{ clear: both; }
+.blue{ color: #19a1c3; }
+div.site-container{
+	width: 980px;
+	min-height: 500px;
+	background: url(../img/kirillka-party-after.png) no-repeat center 0;
+	position: relative;
+	font: 12px/18px Arial;	
+}
+div.people{
+	width: 100%;
+	height: 430px;
+	position: relative;
+	background: url(../img/tolpa.png) 0 100px no-repeat;
+	margin-top: 210px;
+	/*overflow: hidden;*/
+}
+div.people div.item{
+	position: relative;
+	height: 250px;
+	margin-top: 150px;
+	top: 0;
+	width: 75px;
+	overflow: visible;
+	float: left;
+}
+div.people div.item div.who{
+	display: block;
+	padding: 42px 10px 0 10px;
+	width: 132px; height: 100%;
+	background: url(../img/circle.png) 0 0 no-repeat;
+	text-align: center;
+	position:  absolute; top: -175px; left: -40px;
+	color: #fff;
+	font-style: italic;
+}
+div.people div.item div.who div.person{
+	color: #000;
+}
+
+div.people div.prostitutka{ width: 75px;}
+div.people div.sutener{ width: 75px;}
+div.people div.glavvrach{ width: 80px;}
+div.people div.secretary{ width: 60px;}
+div.people div.bufet{ width: 70px;}
+div.people div.woman{ width: 60px;}
+div.people div.driver{ width: 85px;}
+div.people div.me{ width: 70px;}
+div.people div.ira{ width: 60px;}
+div.people div.padre{ width: 70px;}
+div.people div.sister{ width: 70px;}
+div.people div.security{ width: 65px;}
+div.people div.akusherka{ width: 50px;}
+div.people div.gusinica{ width: 65px;}
+
+div.frame-photo{
+	background: url(../img/kirillka-fotki.png) no-repeat 30px 0;
+	width: 450px;
+	padding-top: 160px;		
+	float: left;
+	margin-right: 20px;
+}
+div.frame-photo div.container{
+	overflow-y: scroll;
+	height: 450px;
+	}
+div.photo-item{
+	display: inline-block;
+	height: 75px;
+	width: 75px;
+	float: left;
+	margin: 5px;
+	text-align: center;
+	background-color: #fff;
+	overflow: hidden;
+}
+div.photo-item a{
+	display: block;
+	width: 100%; height: 100%;
+	cursor: pointer;
+	text-align: center;
+}
+div.photo-item a img.v{ height: 100%; }
+div.photo-item a img.h{ width: 100%; }
+
+/* Video */
+div.video-container{
+	width: 100%;
+}
+div.video-container div.v-item{
+	margin-top: 40px;
+}
+div.footer{ height: 100px; }

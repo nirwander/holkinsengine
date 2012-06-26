@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<components xmlns:component=".">
+	<title>Kirillka Party!</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+	<link rel="stylesheet" href="css/main.style.css" type="text/css"/>
+	<link rel="stylesheet" href="css/guestbook.style.css" type="text/css"/>
+	<link rel="stylesheet" href="css/form.style.css" type="text/css"/>
+	<script src="js/ready.js"></script>
+	<script src="js/$_.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/Animator.js"></script>
+	<script src="js/dialog.class.js"></script>
+	<script src="js/GuestBook.class.js"></script>
+	<script src="js/Voter.class.js"></script>
+	<script src="js/Updater.class.js"></script>
+	<script src="js/main.js"></script>
+	<meta http-equiv="Content-Type" content="text/html;charset=windows-1251"/>
+</components>

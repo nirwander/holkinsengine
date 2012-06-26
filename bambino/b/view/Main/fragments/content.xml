@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<components xmlns:component=".">
+	<div class="wrapper" align="center">
+		<div class="site-container" align="left">
+			<div class="frame-till"><component:till/></div>
+			<div class="frame-vote">
+				<div>Официальный напиток вечера (голосуем!)</div>
+				<form action="?vote=go" method="POST" name="voter">
+					<component:voteList />
+					<a class="voter" href="javascript:document.forms.voter.submit();">голосовать</a>
+				</form>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="invitation" align="center"><p class="pt-18">Привет, друзья!</p>
+27 августа 2011 года у нас родился сын Кириллка, 
+благодаря которому <span class="pink">1 октября в 19:00</span> по местному времени 
+состоится алко-вечеринка “KIRILLKA PARTY” в известном вам доме на Тополинке! 
+Конечно, после обильно выпитого спиртного вам захочется спросить “Ну как оно было-то?”. И вот тут мы расскажем всю правду о родах, врачах, санитарах 
+и прочих веселых чуваках из роддома. А для наглядности этими чуваками будете Вы!!! Итак, добро пожаловать в роддом! 
+Пропуск на вечеринку - креативный образ одного из персонажей, которых мы для вас подобрали. 
+Вам нужно выбрать чувака из списка и “застолбить” его на нашем сайте! Во избежания подставы, мы выслали каждому на мыло 
+персональный ID-код для подтверждения личности.
+Удачи с костюмчиками!
+Родители Кирилла Холкина.</div>
+			<div class="frame-costumes green">
+				<!--<div class="costume-item">
+					<div class="name">Врач-анастезиолог</div><div class="start"></div><div class="link"><a rel="2" href="#choose">выбрать</a></div><div class="end"></div><div class="clear"></div>
+				</div>
+				<div class="costume-item busy">
+					<div class="name">Врач-анастезиолог</div><div class="start"></div><div class="link">выбрал  <a class="pink" href="#choose">Иван Кудлик</a></div><div class="end"></div><div class="clear"></div>
+				</div>
+				<div class="costume-item">
+					<div class="name">Врач-анастезиолог</div><div class="start"></div><div class="link"><a href="#choose">выбрать</a></div><div class="end"></div><div class="clear"></div>
+				</div>!-->
+				<component:characterList />
+				<div class="unset-me"><a href="?unsetMe">Я затупил, хочу выбрать другой костюм</a></div>
+			</div>
+			<div class="frame-guestbook">
+				<div class="lenta">
+					<component:guestBookSite />
+				</div>
+				<form action="?addMsg" method="POST">
+					<div><div class="txt">Ник:</div><div class="input"><input id="__gb_nick" type="text" name="gb[nick]"/></div><div class="clear"></div></div>
+					<div>&nbsp;</div>
+					<div><div class="txt">Сообщение:</div><div class="input"><textarea id="__gb_msg" name="gb[msg]"></textarea></div><div class="clear"></div></div>
+					<div><input id="__gbSubmit" class="submit" type="submit" value="Отправить"/></div>
+				</form>
+			</div>
+			<div class="clear"></div>
+			<div class="footer"></div>
+			<div id="__menu">
+				<div class="title">WHO ARE YOU, MY FRIEND ???</div>
+				<component:guestList/>
+				<form method="POST" action="?identity">
+					<div><div class="label">ID</div><input id="__form_guest_n" type="hidden" name="guest" value=""/><input type="password" name="id" value=""/><input id="dialog_submit" class="submit" type="submit" value="OK"/><div class="clear"></div></div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="__shadow"></div>
+</components>

@@ -1,0 +1,39 @@
+div.frame-guestbook{
+	background: url(../img/kirillka-forum.png) no-repeat 100px 0;
+	width: 490px;
+	padding-top: 160px;		
+	margin-top: 150px;
+	float: left;
+}
+div.mt-0{ margin-top: 0px; }
+div.lenta{
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+div.lenta div.msg{
+	margin-bottom: 20px;
+	overflow-y: hidden;
+}
+div.frame-guestbook form{ margin-top: 40px; }
+div.frame-guestbook form div div.txt{ float: left; color: #fd0ec1; width: 100px; }
+div.frame-guestbook form div div.input{ float: left; width: 200px; }
+
+div.frame-guestbook input, div.frame-guestbook  textarea{
+	border: none;
+	width: 200px;
+}
+div.frame-guestbook input.submit{
+	background-color: #fd0ec1;
+	width: 100px;
+	margin-top: 30px;
+	color: #fff;
+}
+
+/*								<form action="?postMsg" method="POST">
+					<div><div class="txt">Ник:</div><div class="input"><input style="margin-left: 100px;" type="text" name="who"/><div><div class="clear"></div></div>
+					<div><div class="txt">Сообщение:</div><div class="input"><textarea name="msg"></textarea><div><div class="clear"></div></div>
+					<div><input type="submit"/></div>
+				</form>
+
+*/

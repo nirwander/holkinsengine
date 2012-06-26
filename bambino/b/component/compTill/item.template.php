@@ -1,0 +1,1 @@
+ƒо вечеринки осталось:<p><span class="till-day">%day%</span> дней<br/><span class="till-hour">%hour%</span> часов<br/><span class="till-minute">%minute%</span> минут</p>

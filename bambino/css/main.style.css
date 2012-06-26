@@ -1,0 +1,112 @@
+body{
+	background-color: #dfceba;
+	overflow-y: scroll;
+}
+.pt-18{	font-size: 18px;}
+.pink{ color: #fd0ec1; }
+.green{ color: #31a902; }
+.clear{ clear: both; }
+.blue{ color: #19a1c3; }
+div.site-container{
+	width: 980px;
+	min-height: 500px;
+	background: url(../img/kirillka-party.png) no-repeat center 0;
+	position: relative;
+	font: 12px/18px Arial;
+}
+div.frame-till{
+	width: 80px;
+	height: 113px;
+	background: url(../img/frame-till.png) no-repeat 0 0;
+	margin-top: 138px;
+	margin-left: 46px;	
+	float: left;
+	text-align: center;
+	padding: 46px 41px 0 41px;
+}
+div.frame-till p{
+	font-size: 14px;
+	color: #31a902;
+}
+div.frame-vote{
+	width: 185px;
+	height: 203px;
+	background: url(../img/frame-vote.png) no-repeat 0 0;
+	margin-top: 95px;
+	margin-right: 25px;
+	float: right;
+	padding: 60px 31px 0 31px;
+	text-align: center;
+}
+div.frame-vote div{ color: #31a902; width: 172px;}
+div.frame-vote form p input{ margin-right: 10px; }
+div.frame-vote form p span{ padding-left: 10px; color: #fff; }
+div.frame-vote form a{ color: #ff00c2; text-decoration: underline; font-size: 10px; border: none; background: none; }
+
+div.invitation{
+	position: absolute;
+	top: 250px; left: 0;
+	width: 100%;
+	white-space: pre-wrap;
+	font: 12px/25px Arial;
+}
+div.frame-costumes{
+	background: url(../img/kirillka-costumes.png) no-repeat 30px 0;
+	width: 490px;
+	padding-top: 150px;	
+	margin-top: 170px;
+	float: left;
+}
+div.frame-costumes div.costume-item{
+	height: 32px;
+	/*overflow-y: hidden;*/
+	background: url(../img/lamps.png) no-repeat;
+	padding-left: 40px;
+	font-size: 14px;
+	line-height: 32px;
+	margin-top: 10px;
+}
+div.frame-costumes div.busy{
+	background: url(../img/lamps.png) no-repeat 0 -32px;
+	color: #ff00c2;
+}
+
+div.frame-costumes div.costume-item div.name{
+	float: left;
+}
+div.frame-costumes div.costume-item div.start{
+	float: left;
+	margin-left: 10px;
+	background: url(../img/cloud-start.png) no-repeat 0 0;
+	width: 9px;
+	height: 30px;
+}
+div.frame-costumes div.costume-item div.link{
+	float: left;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	height: 26px;
+	line-height: 25px;
+	color: #000;
+	font-size: 10px;
+	padding: 0 15px 0 15px;
+}
+div.frame-costumes div.costume-item div.link a{
+	color: #000;
+	font-size: 10px;
+}
+div.frame-costumes div.costume-item div.link a.pink{
+	color: #fd0ec1;
+	
+}
+
+div.frame-costumes div.costume-item div.end{
+	float: left;
+	background: url(../img/cloud-end.png) no-repeat 0 0;
+	width: 4px;
+	height: 30px;
+}
+div.frame-costumes div.unset-me{ margin-top: 20px; margin-left: 40px;}
+div.frame-costumes div.unset-me a{ color: #000; }
+/* footer */
+div.footer{ width: 100%; height: 100px; }

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<components xmlns:component=".">
+	<div class="wrapper" align="center">
+		<div class="site-container" align="left">
+			<div style="height: 1px;"></div>
+			<div class="people">
+				<div class="item prostitutka"><div class="who">Проститутка<div class="person">Юлия Яцун</div></div></div>			
+				<div class="item sutener"><div class="who">Сутенер<div class="person">Григорий Тимченко</div></div></div>			
+				<div class="item glavvrach"><div class="who">Главврач<div class="person">Иван Зотов</div></div></div>			
+				<div class="item secretary"><div class="who">Сексуальная секретарша<div class="person">Таня Бугаева</div></div></div>			
+				<div class="item bufet"><div class="who">Буфетчица<div class="person">Настя Зотова</div></div></div>			
+				<div class="item woman"><div class="who">Беременная женщина<div class="person">Нина Лисунец</div></div></div>			
+				<div class="item driver"><div class="who">Водитель скорой помощи<div class="person">Антон Крамаренко</div></div></div>			
+				<div class="item me"><div class="who">Невыспавшийся отец<div class="person">Антон Холкин</div></div></div>			
+				<div class="item ira"><div class="who">Экстримальная мамаша<div class="person">Ира Чернолуцкая</div></div></div>			
+				<div class="item padre"><div class="who">Священник, пришедший покрестить ребенка<div class="person">Костя Игитов</div></div></div>			
+				<div class="item sister"><div class="who">Залетевшая школьница<div class="person">Лена Холкина</div></div></div>			
+				<div class="item security"><div class="who">Охранник<div class="person">Наташа Ященок</div></div></div>			
+				<div class="item akusherka"><div class="who">Сексуальная акушерка<div class="person">Таня Артемьва</div></div></div>			
+				<div class="item gusinica"><div class="who">Сексуальная гусиница<div class="person">Дима Виговский</div></div></div>
+				<div class="clear"></div>
+			</div>
+			<div class="frame-photo">	
+				<div class="container">
+					<component:fotki/>
+					<!--<div class="photo-item"><a href="img/photo/y_0a02e92a.jpg" rel="lightbox[roadtrip]"><img class="v" src="img/photo/y_0a02e92a.jpg"/></a></div>
+					<div class="photo-item"><a href="img/photo/y_3e7ca2a9.jpg" rel="lightbox[roadtrip]"><img class="v" src="img/photo/y_3e7ca2a9.jpg"/></a></div>
+					<div class="photo-item"><a href="img/photo/y_5a2f33ab.jpg" rel="lightbox[roadtrip]"><img class="v" src="img/photo/y_5a2f33ab.jpg"/></a></div>
+					<div class="photo-item"><a href="img/photo/y_5dc9051d.jpg" rel="lightbox[roadtrip]"><img class="v" src="img/photo/y_5dc9051d.jpg"/></a></div>
+					<div class="photo-item"><a href="img/photo/y_5f247c7b.jpg" rel="lightbox[roadtrip]"><img class="v" src="img/photo/y_5f247c7b.jpg"/></a></div>
+					<div class="photo-item"><a href="img/photo/y_117207f0.jpg" rel="lightbox[roadtrip]"><img class="v" src="img/photo/y_117207f0.jpg"/></a></div>
+					<div class="photo-item"><a href="img/photo/y_a1e6bca0.jpg" rel="lightbox[roadtrip]"><img class="v" src="img/photo/y_a1e6bca0.jpg"/></a></div>
+					<div class="photo-item"><a href="img/photo/y_a14a8ad8.jpg" rel="lightbox[roadtrip]"><img class="v" src="img/photo/y_a14a8ad8.jpg"/></a></div>!-->
+				</div>
+				<div class="video-container">
+					<div class="v-item"><iframe width="420" height="315" src="http://www.youtube.com/embed/AeKPL7NrE6I" frameborder="0" allowfullscreen=""></iframe></div>
+					<div class="v-item"><iframe width="420" height="315" src="http://www.youtube.com/embed/GJv2LAS6U5s" frameborder="0" allowfullscreen=""></iframe></div>
+				</div>
+			</div>
+			<div class="frame-guestbook mt-0">
+				<div class="lenta">
+					<component:guestBookSite />
+				</div>
+				<form action="?addMsg" method="POST">
+					<div><div class="txt">Ник:</div><div class="input"><input id="__gb_nick" type="text" name="gb[nick]"/></div><div class="clear"></div></div>
+					<div>&nbsp;</div>
+					<div><div class="txt">Сообщение:</div><div class="input"><textarea id="__gb_msg" name="gb[msg]"></textarea></div><div class="clear"></div></div>
+					<div><input id="__gbSubmit" class="submit" type="submit" value="Отправить"/></div>
+				</form>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="footer"></div>
+	</div>
+</components>
